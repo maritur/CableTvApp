@@ -4,8 +4,8 @@
             if (isset($_POST['submit']) && !empty($_POST['username']) 
                && !empty($_POST['password'])) {
 				
-               if ($_POST['username'] == 'mariaturuta@gmail.com' && 
-                  $_POST['password'] == 'maria123') {
+               if ($_POST['username'] == 'adminemail@gmail.com' && 
+                  $_POST['password'] == 'admin123') {
 
                   	
 
