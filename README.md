@@ -4,6 +4,11 @@ A user can access the site and look for available TV operators, TV packages in t
 which would help him select the services that fit best for him.
 He can make a wide variety ofsearches through the site database with the parameters he prefers most, 
 depending on region/packages/contact data, etc.
+The admin can log in and change users fields.
+Log in data for admin control is:
+- email = adminemail@gmail.com
+- password = admin123
+(can be changed through admin.php file)
 
 
 The implemented technologies are: 
