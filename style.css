@@ -1,0 +1,154 @@
+/* =============================================================
+   GENERAL PAGE STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans Condensed', sans-serif;  
+    background-color: #dfe5de;
+    font-size:20px;
+    margin: 0px;
+}
+hhhhhh1,h2,h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* =============================================================
+   NAVBAR STYLES
+ ============================================================ */
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color:;
+    border-radius: 3px;
+    padding-top: 0px;
+    height: 50px;
+}
+.nav-bar li {
+    
+}
+.nav-bar li a {
+	float: left;
+    display: block;
+    color: #27382a;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family:"Raleway", Arial, Helvetica, sans-serif;
+}
+.nav-bar li a:hover {
+	color: #aaaaaa;
+    background-color: #27382a;
+}
+
+/* =============================================================
+   PAGE CONTAINERS
+ ============================================================ */
+.container{
+	 border-radius: 5px;
+	 float:center;  
+	 padding:20px 100px 20px 100px;
+	 color:#27382a;
+	 margin:15px;
+	 background:#95b284;
+	 box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.16);
+}
+.line{
+	margin: 10px;
+}
+.trei{
+	margin: 10px;
+	width: 30%;
+	box-shadow:0 4px 10px 0 rgba(0,0,0,0.3),0 4px 20px 0 rgba(0,0,0,0.29)}
+}
+.operatii{
+margin:20px; 
+width:45%; 
+background:#95b284; 
+box-shadow:0 4px 20px 0 rgba(0,0,0,0.3);
+}
+
+.footer {
+	text-align: right;
+    color:#27382a;
+    background:#95b284;
+    padding-bottom:20px; 
+    border-radius: 5px;  
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.16);
+    height:40px;
+    padding:5px;
+}
+.about{
+	width:60%;
+	float:center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* =============================================================
+   PAGE ITEMS
+ ============================================================ */
+.button {
+    background-color:#95b284; /* Green */
+    border: none;
+    color: #27382a;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #27382a;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #27382a;
+}
+thead{
+background:#27382a;
+color:#dfe5de;
+}
+
+
+.loginbox{
+	background:grey;
+	box-shadow:0 4px 20px 0 rgba(0,0,0,0.3); 
+	border-radius:10px; 
+	width:300px;
+	padding:20px; 
+	margin:140px;"
+}
+input, select {
+    width: 100%;
+    background-color: #dfe5de;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #27382a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #435947;
+}
